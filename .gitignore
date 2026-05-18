@@ -1,0 +1,29 @@
+# Local datasets and generated outputs
+Dataset/
+Result/
+results/
+outputs/
+runs/
+
+# Model checkpoints and weights
+Snapshot/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Python/cache files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
