@@ -45,13 +45,13 @@ Dataset/
 ```bash
 python3 MyTrainKaggle.py \
   --epoch 40 \
-  --batchsize 8 \
+  --batchsize 64 \
   --train_img_dir ./Dataset/TrainDataset/Imgs/ \
   --train_gt_dir ./Dataset/TrainDataset/GT/ \
   --save_model ./Snapshot/new-SINet/
 ```
 
-If multiple GPUs are available, the script will use them automatically.
+If multiple GPUs are available, the script will use them automatically. Kaggle can provide two GPUs for free, and `--batchsize 64` works well with that setup.
 
 ## Testing
 
